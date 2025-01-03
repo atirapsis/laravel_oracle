@@ -1,6 +1,6 @@
 How to Connect Laravel 10 to Oracle 10g
 
-Download Oracle Database
+Download Oracle 10g
 Link :https://drive.google.com/file/d/19si_aseUoIEsBVM813xFC8fVzvEVm5QV/view
 
 Oracle Instant Client 
@@ -9,24 +9,24 @@ Link: https://www.oracle.com/database/technologies/instant-client/winx64-64-down
 PECL OCI
 Link: https://pecl.php.net/package/oci8
 
-Pindahkan semua file oci .dll kedalam laragon/bin/php/ext
+Move all .dll file Oci to laragon/bin/php/ext
 
-Pindahkan semua file .dll dari instant client kedalam laragon/bin/apache
+Move all .dll file from Instant Client to laragon/bin/apache 
 
-Enable extension di Laragon (oci8_19 dengan pdo_oci)
+Enable extension at Laragon (oci8_19 and pdo_oci)
 
-Bina satu project, contoh nama -> laravel_oracle dengan Laravel 10
+Create a project with Laravel 10 
 
-Muat Turun Oracle SQL Developer Extension di Visual Studio Code 
+Install Oracle SQL Developer on Visual Studio Code 
 
-Install Yajra package untuk oracle 
+Install Yajra package for oracle 
 Link : https://yajrabox.com/docs/laravel-oci8/10.0/installation
 
-Lihat file tsnames.ora didalam oracle/product/server/NETWORK/ADMIN (* kena pandai belek path)
+Look for file tnsnames.ora at oracle/product/server/NETWORK/ADMIN
 
-Search dekat Visual Studio Code
---> env. dengan oracle.php 
-dekat sini kena letak host bagai 
+Insert information from tnsnames.ora to:
+
+--> env. 
 
 --> oracle.php 
 comment edition 
@@ -87,12 +87,27 @@ Run the project at the laragon terminal
 
 Based on the web.php, add /oci 
 
-Try to migrate:fresh 
+Try to php artisan migrate:fresh 
 
-From there your project successfully connected to Oracle 10g.
+From there, your project successfully connected to Oracle 10g.
 
--------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 
-How to open back up your Oracle 10g
+Website: 
+https://tarsoft.com.my/
 
-sqlplus / as sysdba
+Instagram: 
+  / tarsoft.co  
+
+TikTok: 
+  / tarsoft.co   
+
+YouTube: 
+   / tarsoftsdnbhd   
+
+Telegram: 
+https://t.me/tarsoftco 
+
+Email: 
+admin@tarsoft.co
+
