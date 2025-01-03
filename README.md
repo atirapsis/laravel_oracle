@@ -97,13 +97,13 @@ Website:
 https://tarsoft.com.my/
 
 Instagram: 
-  / tarsoft.co  
+https://www.instagram.com/tarsoft.co/ 
 
 TikTok: 
-  / tarsoft.co   
+https://www.tiktok.com/@tarsoft.co?lang=en 
 
 YouTube: 
-   / tarsoftsdnbhd   
+https://www.youtube.com/@TarsoftSdnBhd
 
 Telegram: 
 https://t.me/tarsoftco 
